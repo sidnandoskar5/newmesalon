@@ -1,4 +1,4 @@
-# Elegance Salon - Professional Beauty Services Website
+# Glow and Shine Beauty Salon - Professional Beauty Services Website
 
 A modern, responsive React website for a unisex salon in India, showcasing professional beauty and grooming services for men, women, and kids.
 
@@ -198,10 +198,10 @@ const category = dataService.getCategoryByKey('women');
 
 ## 📞 Contact Information
 
-- **Salon Name**: Elegance Salon
+- **Salon Name**: Glow and Shine Beauty Salon
 - **Location**: Mumbai, India
 - **Phone**: +91 98765 43210
-- **Email**: info@elegancesalon.com
+- **Email**: info@glowandshinebeauty.com
 - **Hours**: Mon-Sat: 9:00 AM - 8:00 PM, Sunday: 10:00 AM - 6:00 PM
 
 ## 🚀 Deployment
@@ -224,4 +224,4 @@ Feel free to submit issues and enhancement requests!
 
 ---
 
-**Elegance Salon** - Where Beauty Meets Excellence ✨ 
+**Glow and Shine Beauty Salon** - Where Beauty Meets Excellence ✨ 

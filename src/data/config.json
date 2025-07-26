@@ -1,14 +1,14 @@
 {
   "salonInfo": {
-    "name": "Elegance Salon",
+    "name": "Glow and Shine Beauty",
     "tagline": "Where Beauty Meets Excellence",
     "location": "Mumbai, India",
     "contact": "+91 98765 43210",
-    "email": "info@elegancesalon.com",
-    "website": "www.elegancesalon.com"
+    "email": "info@glowandshinebeauty.com",
+    "website": "glowandshinebeautysalon.netlify.app"
   },
   "hero": {
-    "title": "Welcome to Elegance Salon",
+    "title": "Welcome to Glow and Shine Beauty Salon",
     "subtitle": "Experience the finest beauty and grooming services in Mumbai",
     "description": "Professional care for Men, Women & Kids"
   },
@@ -38,7 +38,7 @@
   },
   "footer": {
     "about": {
-      "title": "About Elegance Salon",
+      "title": "About Glow and Shine Beauty Salon",
       "description": "We are a premium unisex salon providing professional beauty and grooming services in Mumbai. Our experienced stylists and beauticians ensure you get the best care and results."
     },
     "contact": {
@@ -61,17 +61,17 @@
         {
           "name": "Facebook",
           "icon": "📘",
-          "url": "https://facebook.com/elegancesalon"
+          "url": "https://facebook.com/glowandshinebeautysalon"
         },
         {
           "name": "Instagram", 
           "icon": "📷",
-          "url": "https://instagram.com/elegancesalon"
+          "url": "https://instagram.com/glowandshinebeautysalon"
         },
         {
           "name": "Twitter",
           "icon": "🐦", 
-          "url": "https://twitter.com/elegancesalon"
+          "url": "https://twitter.com/glowandshinebeautysalon"
         },
         {
           "name": "WhatsApp",
@@ -97,7 +97,7 @@
     }
   },
   "meta": {
-    "title": "Elegance Salon - Professional Beauty Services",
+    "title": "Glow and Shine Beauty - Professional Beauty Services",
     "description": "Professional unisex salon services for men, women, and kids in India",
     "keywords": "salon, beauty, hair, spa, Mumbai, unisex salon, grooming"
   },
