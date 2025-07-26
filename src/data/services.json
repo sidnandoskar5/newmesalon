@@ -1,0 +1,185 @@
+{
+  "salonInfo": {
+    "name": "Elegance Salon",
+    "tagline": "Where Beauty Meets Excellence",
+    "location": "Mumbai, India",
+    "contact": "+91 98765 43210",
+    "email": "info@elegancesalon.com"
+  },
+  "services": {
+    "men": [
+      {
+        "id": "m1",
+        "name": "Haircut & Styling",
+        "description": "Professional haircut with styling consultation",
+        "price": 800,
+        "duration": "45 min",
+        "category": "Hair"
+      },
+      {
+        "id": "m2",
+        "name": "Beard Trim & Shape",
+        "description": "Precise beard trimming and shaping",
+        "price": 500,
+        "duration": "30 min",
+        "category": "Beard"
+      },
+      {
+        "id": "m3",
+        "name": "Hair Color",
+        "description": "Professional hair coloring service",
+        "price": 1500,
+        "duration": "90 min",
+        "category": "Hair"
+      },
+      {
+        "id": "m4",
+        "name": "Facial",
+        "description": "Deep cleansing and rejuvenating facial",
+        "price": 1200,
+        "duration": "60 min",
+        "category": "Skin"
+      },
+      {
+        "id": "m5",
+        "name": "Head Massage",
+        "description": "Relaxing head and scalp massage",
+        "price": 600,
+        "duration": "30 min",
+        "category": "Wellness"
+      },
+      {
+        "id": "m6",
+        "name": "Hair Spa",
+        "description": "Nourishing hair spa treatment",
+        "price": 1000,
+        "duration": "75 min",
+        "category": "Hair"
+      }
+    ],
+    "women": [
+      {
+        "id": "w1",
+        "name": "Haircut & Styling",
+        "description": "Professional haircut with expert styling",
+        "price": 1200,
+        "duration": "60 min",
+        "category": "Hair"
+      },
+      {
+        "id": "w2",
+        "name": "Hair Color",
+        "description": "Professional hair coloring with premium products",
+        "price": 2500,
+        "duration": "120 min",
+        "category": "Hair"
+      },
+      {
+        "id": "w3",
+        "name": "Hair Straightening",
+        "description": "Keratin hair straightening treatment",
+        "price": 3500,
+        "duration": "180 min",
+        "category": "Hair"
+      },
+      {
+        "id": "w4",
+        "name": "Facial",
+        "description": "Luxury facial with premium products",
+        "price": 1800,
+        "duration": "75 min",
+        "category": "Skin"
+      },
+      {
+        "id": "w5",
+        "name": "Threading",
+        "description": "Eyebrow and face threading",
+        "price": 300,
+        "duration": "20 min",
+        "category": "Beauty"
+      },
+      {
+        "id": "w6",
+        "name": "Waxing",
+        "description": "Full body waxing service",
+        "price": 800,
+        "duration": "45 min",
+        "category": "Beauty"
+      },
+      {
+        "id": "w7",
+        "name": "Manicure",
+        "description": "Classic manicure with nail art",
+        "price": 600,
+        "duration": "45 min",
+        "category": "Nails"
+      },
+      {
+        "id": "w8",
+        "name": "Pedicure",
+        "description": "Luxury pedicure with foot massage",
+        "price": 800,
+        "duration": "60 min",
+        "category": "Nails"
+      },
+      {
+        "id": "w9",
+        "name": "Hair Spa",
+        "description": "Deep conditioning hair spa",
+        "price": 1500,
+        "duration": "90 min",
+        "category": "Hair"
+      },
+      {
+        "id": "w10",
+        "name": "Bridal Package",
+        "description": "Complete bridal makeover package",
+        "price": 8000,
+        "duration": "240 min",
+        "category": "Special"
+      }
+    ],
+    "kids": [
+      {
+        "id": "k1",
+        "name": "Kids Haircut",
+        "description": "Gentle haircut for children (2-12 years)",
+        "price": 400,
+        "duration": "30 min",
+        "category": "Hair"
+      },
+      {
+        "id": "k2",
+        "name": "Kids Hair Styling",
+        "description": "Fun and creative hair styling for kids",
+        "price": 300,
+        "duration": "20 min",
+        "category": "Hair"
+      },
+      {
+        "id": "k3",
+        "name": "Kids Facial",
+        "description": "Gentle facial suitable for children",
+        "price": 600,
+        "duration": "30 min",
+        "category": "Skin"
+      },
+      {
+        "id": "k4",
+        "name": "Kids Manicure",
+        "description": "Safe and fun manicure for children",
+        "price": 400,
+        "duration": "30 min",
+        "category": "Nails"
+      },
+      {
+        "id": "k5",
+        "name": "Kids Hair Wash",
+        "description": "Gentle hair wash and conditioning",
+        "price": 250,
+        "duration": "20 min",
+        "category": "Hair"
+      }
+    ]
+  }
+} 

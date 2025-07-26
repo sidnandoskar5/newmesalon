@@ -1,0 +1,110 @@
+{
+  "salonInfo": {
+    "name": "Elegance Salon",
+    "tagline": "Where Beauty Meets Excellence",
+    "location": "Mumbai, India",
+    "contact": "+91 98765 43210",
+    "email": "info@elegancesalon.com",
+    "website": "www.elegancesalon.com"
+  },
+  "hero": {
+    "title": "Welcome to Elegance Salon",
+    "subtitle": "Experience the finest beauty and grooming services in Mumbai",
+    "description": "Professional care for Men, Women & Kids"
+  },
+  "categories": [
+    {
+      "key": "men",
+      "label": "Men Services",
+      "icon": "👨",
+      "description": "Professional grooming services for men"
+    },
+    {
+      "key": "women",
+      "label": "Women Services", 
+      "icon": "👩",
+      "description": "Complete beauty and wellness services for women"
+    },
+    {
+      "key": "kids",
+      "label": "Kids Services",
+      "icon": "👶",
+      "description": "Gentle and safe services for children"
+    }
+  ],
+  "businessHours": {
+    "weekdays": "Mon-Sat: 9:00 AM - 8:00 PM",
+    "weekend": "Sunday: 10:00 AM - 6:00 PM"
+  },
+  "footer": {
+    "about": {
+      "title": "About Elegance Salon",
+      "description": "We are a premium unisex salon providing professional beauty and grooming services in Mumbai. Our experienced stylists and beauticians ensure you get the best care and results."
+    },
+    "contact": {
+      "title": "Contact Information"
+    },
+    "services": {
+      "title": "Our Services",
+      "list": [
+        "• Hair Styling & Coloring",
+        "• Facial & Skin Care", 
+        "• Nail Art & Manicure",
+        "• Waxing & Threading",
+        "• Bridal Packages",
+        "• Kids Services"
+      ]
+    },
+    "social": {
+      "title": "Follow Us",
+      "links": [
+        {
+          "name": "Facebook",
+          "icon": "📘",
+          "url": "https://facebook.com/elegancesalon"
+        },
+        {
+          "name": "Instagram", 
+          "icon": "📷",
+          "url": "https://instagram.com/elegancesalon"
+        },
+        {
+          "name": "Twitter",
+          "icon": "🐦", 
+          "url": "https://twitter.com/elegancesalon"
+        },
+        {
+          "name": "WhatsApp",
+          "icon": "📱",
+          "url": "https://wa.me/919876543210"
+        }
+      ]
+    },
+    "copyright": "All rights reserved. | Designed with ❤️ for our valued customers"
+  },
+  "ui": {
+    "currency": "INR",
+    "currencySymbol": "₹",
+    "loadingText": "Loading services...",
+    "noServicesText": "No services available for this category.",
+    "errorText": "Unable to load services. Please try again later.",
+    "durationIcon": "⏱️",
+    "contactIcons": {
+      "phone": "📞",
+      "email": "📧", 
+      "location": "📍",
+      "hours": "🕒"
+    }
+  },
+  "meta": {
+    "title": "Elegance Salon - Professional Beauty Services",
+    "description": "Professional unisex salon services for men, women, and kids in India",
+    "keywords": "salon, beauty, hair, spa, Mumbai, unisex salon, grooming"
+  },
+  "theme": {
+    "primaryColor": "#d4af37",
+    "secondaryColor": "#2c3e50", 
+    "accentColor": "#e74c3c",
+    "fontFamily": "Poppins"
+  }
+} 
