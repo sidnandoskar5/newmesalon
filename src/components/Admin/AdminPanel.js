@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import dataService from '../../services/dataService';
-import SalonInfoForm from './SalonInfoForm';
-import HeroForm from './HeroForm';
-import CategoriesForm from './CategoriesForm';
-import ServicesForm from './ServicesForm';
-import FooterForm from './FooterForm';
-import ThemeForm from './ThemeForm';
-import MetaForm from './MetaForm';
-import UIForm from './UIForm';
 import './AdminPanel.css';
+import CategoriesForm from './CategoriesForm';
+import FooterForm from './FooterForm';
+import HeroForm from './HeroForm';
+import MetaForm from './MetaForm';
+import SalonInfoForm from './SalonInfoForm';
+import ServicesForm from './ServicesForm';
+import ThemeForm from './ThemeForm';
+import UIForm from './UIForm';
 
 const AdminPanel = ({ onClose, onSave }) => {
   const [config, setConfig] = useState(dataService.getConfig());

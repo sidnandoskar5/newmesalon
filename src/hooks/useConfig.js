@@ -3,7 +3,6 @@ import dataService from '../services/dataService';
 
 export const useConfig = () => {
   useEffect(() => {
-    const config = dataService.getConfig();
     const meta = dataService.getMeta();
     const theme = dataService.getTheme();
     

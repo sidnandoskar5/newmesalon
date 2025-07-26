@@ -1,28 +1,27 @@
 import React, { useState } from 'react';
+import AdminPanel from './components/Admin/AdminPanel';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import ServicesSection from './components/ServicesSection';
-import Footer from './components/Footer';
-import AdminPanel from './components/Admin/AdminPanel';
-import useConfig from './hooks/useConfig';
 import './index.css';
 
 function App() {
+  const [showAdminOption] = useState(false);
   const [showAdmin, setShowAdmin] = useState(false);
   const [refreshKey, setRefreshKey] = useState(0);
-  const config = useConfig();
 
   const handleAdminSave = (newConfig) => {
     // Force re-render of the entire app with new config and services
     setRefreshKey(prev => prev + 1);
-    
+
     // Apply theme changes immediately
     const root = document.documentElement;
     root.style.setProperty('--primary-color', newConfig.theme.primaryColor);
     root.style.setProperty('--secondary-color', newConfig.theme.secondaryColor);
     root.style.setProperty('--accent-color', newConfig.theme.accentColor);
     document.body.style.fontFamily = `'${newConfig.theme.fontFamily}', sans-serif`;
-    
+
     // Update document title
     document.title = newConfig.meta.title;
   };
@@ -33,9 +32,9 @@ function App() {
       <Hero />
       <ServicesSection />
       <Footer />
-      
+
       {/* Floating Admin Button */}
-      <button
+      {showAdminOption && <button
         className="admin-toggle-btn"
         onClick={() => setShowAdmin(true)}
         title="Open Admin Panel"
@@ -68,7 +67,7 @@ function App() {
         }}
       >
         ⚙️
-      </button>
+      </button>}
 
       {/* Admin Panel */}
       {showAdmin && (
