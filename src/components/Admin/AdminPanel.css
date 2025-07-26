@@ -49,10 +49,10 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px 30px;
-  border-bottom: 1px solid #e9ecef;
-  background: linear-gradient(135deg, var(--primary-color), #b8941f);
+  border-bottom: 1px solid rgba(201, 169, 110, 0.1);
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
   color: white;
-  border-radius: 12px 12px 0 0;
+  border-radius: 16px 16px 0 0;
 }
 
 .admin-header h2 {
@@ -273,7 +273,7 @@
 }
 
 .add-item-btn:hover {
-  background: #b8941f;
+  background: var(--primary-dark);
   transform: translateY(-1px);
 }
 
@@ -338,7 +338,7 @@
 }
 
 .save-btn:hover:not(:disabled) {
-  background: #b8941f;
+  background: var(--primary-dark);
   transform: translateY(-1px);
 }
 

@@ -14,6 +14,8 @@ A modern, responsive React website for a unisex salon in India, showcasing profe
 - **Config-Driven**: Completely configuration-driven architecture with centralized data management
 - **Theme Customization**: Dynamic theme updates via configuration
 - **Data Service**: Centralized data service with validation and utility methods
+- **Admin Panel**: Comprehensive admin interface for managing all website content
+- **Services Management**: Full CRUD operations for all salon services
 
 ## 🎨 Design Highlights
 
@@ -51,7 +53,7 @@ A modern, responsive React website for a unisex salon in India, showcasing profe
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/sidnandoskar5/salon.git
 cd saloon
 ```
 
@@ -79,7 +81,18 @@ saloon/
 │   │   ├── Hero.js
 │   │   ├── ServiceCard.js
 │   │   ├── ServicesSection.js
-│   │   └── Footer.js
+│   │   ├── Footer.js
+│   │   └── Admin/
+│   │       ├── AdminPanel.js
+│   │       ├── AdminPanel.css
+│   │       ├── SalonInfoForm.js
+│   │       ├── HeroForm.js
+│   │       ├── CategoriesForm.js
+│   │       ├── ServicesForm.js
+│   │       ├── FooterForm.js
+│   │       ├── ThemeForm.js
+│   │       ├── UIForm.js
+│   │       └── MetaForm.js
 │   ├── data/
 │   │   ├── config.json          # Main configuration file
 │   │   └── services.json        # Services and pricing data
@@ -132,8 +145,38 @@ saloon/
 5. **Price Formatting**: Automatic currency formatting based on configuration
 6. **Professional Layout**: Clean, modern design suitable for business
 7. **Contact Integration**: Prominent display of salon contact information
-8. **Mobile Responsive**: Optimized for all device sizes
+8. **Mobile Responsive**: Optimized for all screen sizes
 9. **Configuration Validation**: Built-in validation for required configuration fields
+10. **Admin Panel**: Comprehensive management interface (conditionally rendered)
+11. **Services Management**: Full CRUD operations for all services
+
+## 🔧 Admin Panel Features
+
+The admin panel provides comprehensive management capabilities:
+
+### 📋 Admin Sections:
+- **🏪 Salon Info**: Basic information and business hours
+- **🎯 Hero Section**: Welcome messages and banner content
+- **📋 Categories**: Service categories with icons and descriptions
+- **💼 Services**: Complete services management with CRUD operations
+- **📄 Footer**: About section, services list, and social media links
+- **🎨 Theme**: Colors and fonts with live preview
+- **⚙️ UI Settings**: Currency, icons, and system messages
+- **🔍 SEO Meta**: Title, description, and keywords with analysis
+
+### 🛠️ Admin Access:
+Admin panel access is conditionally rendered based on the `showAdminOption` state in `App.js`. 
+
+To enable admin access, change:
+```javascript
+const [showAdminOption] = useState(false);
+```
+to:
+```javascript
+const [showAdminOption] = useState(true);
+```
+
+This will display the floating admin button (⚙️) in the bottom-right corner.
 
 ## 🔧 Customization
 
@@ -147,7 +190,8 @@ Edit `src/data/config.json` to customize all aspects of the website:
     "tagline": "Your Tagline",
     "location": "Your City, Country",
     "contact": "+91 XXXXX XXXXX",
-    "email": "your@email.com"
+    "email": "your@email.com",
+    "website": "your-website.com"
   },
   "hero": {
     "title": "Welcome to Your Salon",
@@ -202,7 +246,15 @@ const category = dataService.getCategoryByKey('women');
 - **Location**: Mumbai, India
 - **Phone**: +91 98765 43210
 - **Email**: info@glowandshinebeauty.com
+- **Website**: glowandshinebeautysalon.netlify.app
 - **Hours**: Mon-Sat: 9:00 AM - 8:00 PM, Sunday: 10:00 AM - 6:00 PM
+
+## 🌐 Social Media
+
+- **Facebook**: https://facebook.com/glowandshinebeautysalon
+- **Instagram**: https://instagram.com/glowandshinebeautysalon
+- **Twitter**: https://twitter.com/glowandshinebeautysalon
+- **WhatsApp**: https://wa.me/919876543210
 
 ## 🚀 Deployment
 
@@ -221,6 +273,14 @@ This project is created for educational and business purposes. Feel free to cust
 ## 🤝 Contributing
 
 Feel free to submit issues and enhancement requests!
+
+## 🔄 Recent Updates
+
+- **Rebranding**: Updated from "Elegance Salon" to "Glow and Shine Beauty Salon"
+- **Contact Updates**: New email (info@glowandshinebeauty.com) and website
+- **Social Media**: Updated all social media links to match new branding
+- **Code Optimization**: Cleaned up imports and conditional admin rendering
+- **Admin Access Control**: Admin panel now conditionally rendered for security
 
 ---
 

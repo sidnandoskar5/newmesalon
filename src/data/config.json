@@ -102,9 +102,9 @@
     "keywords": "salon, beauty, hair, spa, Mumbai, unisex salon, grooming"
   },
   "theme": {
-    "primaryColor": "#d4af37",
-    "secondaryColor": "#2c3e50", 
-    "accentColor": "#e74c3c",
-    "fontFamily": "Poppins"
+    "primaryColor": "#c9a96e",
+    "secondaryColor": "#2c2c54",
+    "accentColor": "#ff6b6b",
+    "fontFamily": "Inter"
   }
 } 
