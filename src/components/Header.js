@@ -4,7 +4,8 @@ import dataService from '../services/dataService';
 const Header = () => {
   const salonInfo = dataService.getSalonInfo();
   const ui = dataService.getUIConfig();
-  const location = salonInfo.location.split(',')[0];
+  const locationArr = salonInfo.location.split(',');
+  const location = locationArr[locationArr.length - 1].trim();
 
   return (
     <header className="header">
