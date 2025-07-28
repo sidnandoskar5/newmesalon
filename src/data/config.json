@@ -1,14 +1,14 @@
 {
   "salonInfo": {
-    "name": "Glow and Shine Beauty",
-    "tagline": "Where Beauty Meets Excellence",
-    "location": "Mumbai, India",
-    "contact": "+91 98765 43210",
-    "email": "info@glowandshinebeauty.com",
+    "name": "Glow & Shine Beauty",
+    "tagline": "Your glow, our passion",
+    "location": "Kalpavruksh bld., Baji Prabhu Deshpande rd., Navpada, Kamala nagar, Ville Parle(W), Mumbai",
+    "contact": "+91 8591901283",
+    "email": "beautysalonglowshine@gmail.com",
     "website": "glowandshinebeautysalon.netlify.app"
   },
   "hero": {
-    "title": "Welcome to Glow and Shine Beauty Salon",
+    "title": "Welcome to Glow & Shine Beauty Salon",
     "subtitle": "Experience the finest beauty and grooming services in Mumbai",
     "description": "Professional care for Men, Women & Kids"
   },
@@ -38,7 +38,7 @@
   },
   "footer": {
     "about": {
-      "title": "About Glow and Shine Beauty Salon",
+      "title": "About Glow & Shine Beauty Salon",
       "description": "We are a premium unisex salon providing professional beauty and grooming services in Mumbai. Our experienced stylists and beauticians ensure you get the best care and results."
     },
     "contact": {
@@ -97,7 +97,7 @@
     }
   },
   "meta": {
-    "title": "Glow and Shine Beauty - Professional Beauty Services",
+    "title": "Glow & Shine Beauty - Professional Beauty Services",
     "description": "Professional unisex salon services for men, women, and kids in India",
     "keywords": "salon, beauty, hair, spa, Mumbai, unisex salon, grooming"
   },

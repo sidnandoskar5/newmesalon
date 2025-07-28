@@ -4,6 +4,7 @@ import dataService from '../services/dataService';
 const Header = () => {
   const salonInfo = dataService.getSalonInfo();
   const ui = dataService.getUIConfig();
+  const location = salonInfo.location.split(',')[0];
 
   return (
     <header className="header">
@@ -16,7 +17,7 @@ const Header = () => {
           <div className="contact-info">
             <p>{ui.contactIcons.phone} {salonInfo.contact}</p>
             <p>{ui.contactIcons.email} {salonInfo.email}</p>
-            <p>{ui.contactIcons.location} {salonInfo.location}</p>
+            <p>{ui.contactIcons.location} {location}</p>
           </div>
         </div>
       </div>
